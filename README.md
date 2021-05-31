@@ -409,11 +409,11 @@ function a:Window(w)
         a6.Size = UDim2.new(0, 80, 0, 7)
         a7.CornerRadius = UDim.new(0, 4)
         a7.Name = "SliderBackRound"
-        a7.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+        a7.BackgroundColor3 = Color3.fromRGB(165, 214, 247)
         a7.Parent = a6
         a8.Name = "SliderPart"
         a8.Parent = a6
-        a8.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+        a8.BackgroundColor3 = Color3.fromRGB(165, 214, 247)
         a8.BorderSizePixel = 0
         a8.Size = UDim2.new((S or 0) / a2, 0, 1, 0)
         a9.CornerRadius = UDim.new(0, 4)
@@ -421,14 +421,14 @@ function a:Window(w)
         a9.Parent = a8
         aa.Name = "SliderValue"
         aa.Parent = a4
-        aa.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+        aa.BackgroundColor3 = Color3.fromRGB(99, 188, 246)
         aa.BackgroundTransparency = 1.000
         aa.BorderSizePixel = 0
         aa.Position = UDim2.new(0.571428597, 0, 0.166666672, 0)
         aa.Size = UDim2.new(0, 80, 0, 16)
         aa.Font = Enum.Font.Code
         aa.Text = S or a1
-        aa.TextColor3 = Color3.fromRGB(38, 38, 38)
+        aa.TextColor3 = Color3.fromRGB(0, 154, 255)
         aa.TextSize = 14.000
         if S and S ~= a1 then
             N(S)
