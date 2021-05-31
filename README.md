@@ -403,13 +403,12 @@ function a:Window(w)
         a5.TextXAlignment = Enum.TextXAlignment.Left
         a6.Name = "SliderBack"
         a6.Parent = a4
-        a6.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+        a6.BackgroundColor3 = Color3.fromRGB(19, 154, 242)
         a6.BorderSizePixel = 0
         a6.Position = UDim2.new(0.57099998, 0, 0.680000007, 0)
         a6.Size = UDim2.new(0, 80, 0, 7)
         a7.CornerRadius = UDim.new(0, 4)
         a7.Name = "SliderBackRound"
-        a7.BackgroundColor3 = Color3.fromRGB(165, 214, 247)
         a7.Parent = a6
         a8.Name = "SliderPart"
         a8.Parent = a6
